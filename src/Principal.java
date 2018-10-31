@@ -94,7 +94,7 @@ public class Principal {
 
 
         //Número de vértices do grafo
-        n = 3;
+        n = 7;
 
         //Atribui para G
         G = g;
