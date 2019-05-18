@@ -133,9 +133,12 @@ public class Principal {
 
         //Armazena opção lida
         int opcao = -1;
+         
+         //Laço do menu de opções
         while (opcao != 99) {
             //Realiza a leitura da opção
             opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Menu de Opções - Grafo Orientado com Matriz de Adjacência ###\n"
+                    + "Selecione a opção desejada:\n"
                     + " 0- Carregamento da Grafo\n"
                     + " 1- Imprime Matriz Adjacência\n"
                     + " 2- Leitura do Grafo(i)\n"
@@ -143,7 +146,7 @@ public class Principal {
                     //Outras opções vão aqui                    
                     
                     + "99- Sair\n"
-                    + "Digite a opção desejada:"));
+                    + "Opção:"));
             //Verifica a opção
             switch (opcao) {
                 case 0: {
@@ -176,7 +179,7 @@ public class Principal {
                     System.out.println("Opção inválida!");
                     break;
                 }
-            }//Fim Switch
-        }//Fim While
-    }//Fim Main
+            }//Fim switch
+        }//Fim while
+    }//Fim main
 }
