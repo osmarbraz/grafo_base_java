@@ -10,6 +10,7 @@ public class Principal {
 
     //Número de vértices do grafo
     static int n = 0;
+
     //Matriz M de n por n
     static int[][] G = new int[n][n];
 
@@ -92,7 +93,6 @@ public class Principal {
             {0, 0, 0, 0, 1, 0, 0} //7
         };
 
-
         //Número de vértices do grafo
         n = 7;
 
@@ -122,8 +122,8 @@ public class Principal {
         }
     }
 
-   //Outras operações vão aqui
-
+    //Outras operações vão aqui
+    
     /**
      * Programa principal.
      *
@@ -133,9 +133,10 @@ public class Principal {
 
         //Armazena opção lida
         int opcao = -1;
-         
-         //Laço do menu de opções
+
+        //Laço do menu de opções
         while (opcao != 99) {
+            
             //Realiza a leitura da opção
             opcao = Integer.parseInt(JOptionPane.showInputDialog("\t### Menu de Opções - Grafo Orientado com Matriz de Adjacência ###\n"
                     + "Selecione a opção desejada:\n"
@@ -144,9 +145,10 @@ public class Principal {
                     + " 2- Leitura do Grafo(i)\n"
                     
                     //Outras opções vão aqui                    
-                    
+
                     + "99- Sair\n"
                     + "Opção:"));
+            
             //Verifica a opção
             switch (opcao) {
                 case 0: {
@@ -166,7 +168,7 @@ public class Principal {
                     leituraGrafo();
                     break;
                 }
-                
+
                 //Outras opções vão aqui
                 
                 //Opção de saída do programa
