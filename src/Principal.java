@@ -1,4 +1,3 @@
-
 /**
  * Implementação de exemplo que utiliza JOptionPane para construir um menu de
  * opções para um grafo orientado utilizando uma matriz de adjacência.
@@ -184,4 +183,4 @@ public class Principal {
             }//Fim switch
         }//Fim while
     }//Fim main
-}
+}//Fim Principal
